@@ -10,10 +10,15 @@
 <section>
     <h2>To Do List</h2>
     <div class="form-add">
-        <input type="text" placeholder="...Title" id="tdl-add-title">
+        <label for="tdl-add-title">Title</label><input type="text" placeholder="...Title" id="tdl-add-title">
+        <label for="tdl-status">
+            Status
+            <input id="tdl-status" type="checkbox">
+        </label>
         <input type="button" value="Add" id="tdl-add-btn">
     </div>
     <ul id="tdl-list"></ul>
+    <div id="modal-container" class="modal-container"></div>
 </section>
 <script src="assets/js/main.js"></script>
 </body>
